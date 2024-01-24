@@ -6,14 +6,14 @@ import Footer from '../main/footer/Footer'
 function MainRoute() {
     return (
         <>
-            <div className='container-fluid p-0'>
+           
                 <div className='conatiner'>
                     <div className='row-2 '>
                         <div className='col'>
                             <Header />
                         </div>
                     </div>
-                    <div className='outlet-section row-8'>
+                    <div className='row-8'>
                         <div className='col'>
                             <Outlet />
                         </div>
@@ -24,7 +24,7 @@ function MainRoute() {
                         </div>
                     </div>
                 </div>
-            </div>
+           
         </>
     )
 }

@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
      <Routes>
-      <Route path="/"  element={<MainRoute/>}>vvv
+      <Route path="/" element={<MainRoute/>}>
       <Route path="/" element={<Home/>} />
       <Route path="/catalogo" element={<Catalogo/>} />
       <Route path="/su-misura" element={<Sumisura/>} />
