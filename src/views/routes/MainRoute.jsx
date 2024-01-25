@@ -8,17 +8,17 @@ function MainRoute() {
         <>
            
                 <div className='conatiner'>
-                    <div className='row-2 '>
+                    <div className='row '>
                         <div className='col'>
                             <Header />
                         </div>
                     </div>
-                    <div className='row-8'>
+                    <div className='row'>
                         <div className='col'>
                             <Outlet />
                         </div>
                     </div>
-                    <div className='row-2'>
+                    <div className='row'>
                         <div className='col'>
                             <Footer />
                         </div>

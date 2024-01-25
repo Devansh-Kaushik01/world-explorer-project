@@ -31,7 +31,7 @@ function Sumisura() {
             </div>
           </div>
         </div>
-        <div className='row mt-4 mb-4 text-center '>
+        <div className='row mt-4 mb-2 text-center '>
           <div className='col mb-3'>
             <div className='image-box'>
               <img className='forest-image' src={forest} alt='image' />
