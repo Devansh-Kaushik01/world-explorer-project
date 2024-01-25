@@ -15,7 +15,7 @@ function Dacatalogo() {
       <div className='row bg-danger text-white'>
         <div className='heading text-center p-1'>
           <Bag />
-          <h3>Da catalogo</h3>
+          <h3>Preventivi da catalogo</h3>
         </div>
       </div>
       <div className=''>

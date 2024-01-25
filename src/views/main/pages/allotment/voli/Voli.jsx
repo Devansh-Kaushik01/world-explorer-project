@@ -15,7 +15,7 @@ function Voli() {
       <div className='row bg-danger text-white'>
         <div className='heading text-center p-1'>
           <Box />
-          <h3>Voli</h3>
+          <h3>Allotment voli</h3>
         </div>
       </div>
       <div className=''>

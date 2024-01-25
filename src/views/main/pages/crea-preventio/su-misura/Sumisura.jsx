@@ -8,6 +8,7 @@ import africaDel from '../../../../images/africa-del.jpg'
 import australiaOcean from '../../../../images/austrliaOcean.jpg'
 import asiaTemple from '../../../../images/asiaTemple.jpg'
 import europa from '../../../../images/europa.jpg'
+import { Nav } from 'react-bootstrap'
 
 function Sumisura() {
   return (
@@ -15,7 +16,7 @@ function Sumisura() {
       <div className='row bg-danger text-white'>
         <div className='heading text-center p-1'>
           <Bag />
-          <h3>Su Misura</h3>
+          <h3>Preventivi su misura</h3>
         </div>
       </div>
       <div className=''>
@@ -36,7 +37,7 @@ function Sumisura() {
             <div className='image-box'>
               <img className='forest-image' src={forest} alt='image' />
               <div className='img-text'>
-                <h5 className='p-3'>AFRICA DEGLI ANIMALI</h5>
+              <Nav.Link href="/africa-degli" className=" h5 p-3 ">AFRICA DEGLI ANIMALI</Nav.Link>
               </div>
             </div>
             <div className='image-box mt-3'>

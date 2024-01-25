@@ -15,7 +15,7 @@ function Servizi() {
       <div className='row bg-danger text-white'>
         <div className='heading text-center p-1'>
           <Box />
-          <h3>Servizi a terra</h3>
+          <h3>Allotment servizi a terra</h3>
         </div>
       </div>
       <div className=''>

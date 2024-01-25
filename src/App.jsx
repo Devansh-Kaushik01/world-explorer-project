@@ -13,6 +13,7 @@ import Voli from "./views/main/pages/allotment/voli/Voli";
 import Servizi from "./views/main/pages/allotment/servizi-a-terra/Servizi";
 import TestiItinerari from "./views/main/pages/databse/testi-itinerari/TestiItinerari";
 import Destinazioni from "./views/main/pages/databse/destinazioni/Destinazioni";
+import AfricaDegli from "./views/main/pages/crea-preventio/su-misura/pages/degli-animali/AfricaDegli";
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
       <Route path="/servizi" element={<Servizi/>} />
       <Route path="/testi-itinerari" element={<TestiItinerari/>} />
       <Route path="/destinazioni" element={<Destinazioni/>}/>
+      <Route path="/africa-degli" element={<AfricaDegli/>}/>
       </Route>
       <Route path="/auth" name="login" element={<AuthRoute/>} >
       <Route path="/auth/login" element={<Login/>} />

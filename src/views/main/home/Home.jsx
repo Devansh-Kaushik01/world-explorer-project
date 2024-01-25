@@ -29,7 +29,7 @@ function Home() {
                                 <div className='text d-flex justify-content-center'>
                                     <h3 className='heading3'>Preventivo su misura</h3>
                                 </div>
-                                <div className='icon mt-4  d-flex justify-content-center '>
+                                <div className='icon mt-4  d-flex justify-content-center'>
                                     <div style={{ width: '18rem', height: "35vh", boxShadow: "0px 0px 17px -4px" }}>
                                         <Scissors size={96} className='mt-2' />
                                     </div>

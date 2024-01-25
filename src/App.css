@@ -73,7 +73,7 @@ span{
 }
 /* Header component style */
 .navbar{
-  background-color: rgb(39 39 68);;
+  background-color: rgb(39 39 68);
 }
 a.nav-link {
   color: white;
@@ -118,6 +118,14 @@ img.forest-image {
   width: 100%;
   text-align: center;
 }
-.img-text h5{
+.img-text .h5{
   font-weight: 700;
+  font-size: 20px;
+}
+/* AfricaDegli */
+/* .elephant{
+
+} */
+.luglio-head{
+  background-color: rgb(39 39 68);
 }
